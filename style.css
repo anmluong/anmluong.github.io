@@ -1,0 +1,316 @@
+
+h1, h2, h3, h4 {
+  font-family: 'Yeseva One', 'Didact Gothic', sans-serif;
+  font-weight: bold;
+}
+
+h5, h6 {
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: bold;
+}
+
+p, li, ol, ul {
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+  outline: none;
+  border: none;
+	background: #FFFCF9;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+/* Keep footer at bottom of window */
+.site {
+  display: flex;
+  min-height: 100vh; /* sets viewport height to 100% so body takes up entire screen */
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+/* Styling */
+a {
+  color: #de9467;
+}
+
+a:hover {
+  color: #b75e28;
+  text-decoration: none;
+}
+
+#peach {
+  color: #de9467;
+}
+
+#pronunciation {
+  color: #8d491f;
+  font-style: italic;
+}
+
+#bold {
+	font-weight: bold;
+}
+
+#italics {
+	font-style: italic;
+}
+
+#name {
+  font-family: 'Yeseva One', 'Didact Gothic', sans-serif;
+}
+
+/* Navigation */
+.clearfix {
+  *zoom: 1;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  -webkit-box-sizing: border-box;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+  -webkit-box-sizing: border-box;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix a {
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: bold;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+header {
+  width: 100%;
+  height: auto;
+}
+.header-left,
+.header-right {
+  position: relative;
+  float: left;
+}
+.header-left {
+  width: 30%;
+}
+.header-left img {
+  height: 40px;
+}
+.header-right label {
+  position: absolute;
+  top: -3.7em;
+  right: 0;
+  cursor: pointer;
+}
+.header-right span {
+  position: relative;
+  width: 2em;
+  height: 2em;
+  -webkit-transition: all .3s ease;
+}
+.header-right span:hover {
+  color: #8FA2BA;
+}
+.header-right span:before,
+.header-right span:after {
+  content: '';
+  position: absolute;
+  width: 2em;
+  height: .5em;
+  top: 4px;
+  left: 0;
+  background: #576E8D;
+}
+.header-right span:after{
+  top: 14px; 
+}
+.header-right{
+  width: 70%;
+  text-align: right;
+}
+.header-right a img {
+  height: 18px;
+  padding: 0;
+  margin: 0;
+}
+#open{
+  display: none;
+}
+nav>a {
+  text-decoration: none;
+  color: #99642E;
+  position: relative;
+  display: inline-block;
+  line-height: 40px;
+  padding: 0 2em;
+  -webkit-transition: all .3s ease;
+}
+nav>a:hover {
+  color: #C98B4B;
+  text-decoration: none;
+}
+.hidden {
+  display: none;
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .box{
+    width: 49%;
+    margin-bottom: 5%;
+  }
+
+  ul li:nth-child(3) .box {
+    clear: both;
+  }
+
+  ul li:nth-child(2n) .box {
+    margin-right: 0;
+    clear: right;
+  }
+}
+
+/* Small monitor */
+@media (max-width: 979px) {
+  nav>a{
+    padding: 0 1.5em;
+  }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .container{
+    width: 95%;
+  }
+  nav>a {
+    padding: 0 2em;
+  }
+  .header-left,
+  .header-right {
+    width: 100%;
+    text-align: center;
+  }
+  .header-left img {
+    height: 60px;
+    margin-bottom: 10px;
+  }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  body{
+    padding: 0 .5em;
+  }
+  .container {
+    width: 90%;
+  }
+  nav {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all .3s ease;
+  }
+  input[type="checkbox"]:checked + nav {
+    height: 205px;
+  }
+  nav>a {
+    padding: 0 1em;
+    display: block;
+    border-bottom: solid 1px #f2e3d4;
+  }
+  .header-left img {
+    height: 40px;
+  }
+  .header-left {
+    width: 100%;
+    text-align: center;
+  }
+  .header-right {
+    width: 100%;
+    text-align: center;
+  }
+  .hidden {
+    display: inline-block;
+    width: 20px;
+  }
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #9c9862;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+footer i {
+  color: #FFFCF9;
+}
+
+footer i:hover {
+  color: #342E29;
+}
+
+.name-footer {
+  background-color: #3e3d27;
+  height: 100%;
+}
+
+.name-footer p {
+  color: #ebeadf;
+}
+
+/* Intro */
+.container-header {
+  text-align: center;
+}
+
+/* Work */
+
+.card-body {
+  background-color: #FFFDFC;
+}
+
+.card-title a {
+  color: #514840;
+}
+
+.card-title a:hover {
+  color: #807266;
+  text-decoration: none;
+}
+
+.content {
+	margin: 0 15% 0 15%;
+	padding: 30px;
+}
+
+/* About */
+.container-picture {
+  text-align: center;
+  width: 100%;
+}
+
+.profile-picture {
+	width: 75%;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.about-divider img{
+  width: 75%;
+}
+
