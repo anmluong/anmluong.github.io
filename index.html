@@ -33,83 +33,97 @@
 
 </head>
 
-<body class="site">
+<div id="container">
+	<body>
 
-	<!-- Navigation -->
-	<header class="clearfix">
-		<div class="container">
-			<div class="header-left">
-				<a class="navbar-brand" href="#">
-					<img src="images/elephant.png" alt="Elephant logo"/>
-				</a>
-			</div>
-			<div class="header-right">
-				<label for="open">
-					<img class="hidden" src="images/hamburger-menu.png" alt="Hamburger menu icon"/>
-				</label>
-				<input type="checkbox" name="" id="open">
-				<nav>
-					<a href="#"><img src="images/doodle.png" alt="Sideways sprig doodle"> work</a>
-					<a target="_blank" href="https://drive.google.com/file/d/19mePEhwP5mqri6wgZylMxq4nAel0Tnt0/view">resume</a>
-					<a href="about.html">about</a>
-				</nav>
-			</div>
+		<!-- Navigation -->
+		<div id="header">
+			<header class="clearfix">
+				<div class="container">
+					<div class="header-left">
+						<a class="navbar-brand" href="#">
+							<img src="images/elephant.png" alt="Elephant logo"/>
+						</a>
+					</div>
+					<div class="header-right">
+						<label for="open">
+							<img class="hidden" src="images/hamburger-menu.png" alt="Hamburger menu icon"/>
+						</label>
+						<input type="checkbox" name="" id="open">
+						<nav>
+							<a href="#"><img src="images/doodle.png" alt="Sideways sprig doodle"> work</a>
+							<a href="about.html">about</a>
+							<a target="_blank" href="https://drive.google.com/file/d/19mePEhwP5mqri6wgZylMxq4nAel0Tnt0/view">resume</a>
+						</nav>
+					</div>
+				</div>
+			</header>
 		</div>
-	</header>
-	
+		
 
-	<div class="site-content">
+		<div id="body">
 
-		<!-- Intro -->
-		<div class="container container-header">
-			<h2><span id="peach">hello, hello! I'm An.</span></h2>
-			<p>I'm a designer and engineer studying at UVA.</p>
-		</div>
+			<!-- Intro -->
+			<div class="container container-header">
+				<h2><span id="peach">hello, hello! I'm An.</span></h2>
+				<p>I'm a designer, engineer, and third-year student at UVA currently doing UX design work at <a href="https://www.sba.gov/" target="_blank">U.S. Small Business Administration</a>.</p>
+			</div>
 
-		<!-- Work cards -->
-		<div class="container container-work">
-			<div class="row">
-				<div class="col-md-6 mb-4">
-					<div class="card h-100 border-0 shadow">
-						<img class="card-img-top" src="https://via.placeholder.com/700x400/f6e3d7/514840/?text=Coming+Soon"></a>
-						<div class="card-body">
-							<h4 class="card-title">ARChef</h4>
-							<p class="card-text">Recipe tutorials + augmented reality for amateur student cooks</p>
+			<!-- Work cards -->
+			<div class="container container-work">
+				<div class="row">
+					<div class="col-md-6 mb-4">
+						<div class="card h-100 border-0 shadow">
+							<div class="card-image">
+								<a href="archef.html"><img class="card-img-top" src="images/archef-cover.png" alt="Sample screenshots from ARChef mockup"></a>
+							</div>
+							<div class="card-body">
+								<h4 class="card-title">
+									<a href="archef.html">ARChef</a>
+								</h4>
+								<p class="card-text">Using augmented reality in recipe tutorials for amateur student cooks</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 mb-4">
+						<div class="card h-100 border-0 shadow">
+							<div class="card-image">
+								<a href="circ.html"><img class="card-img-top" src="images/circ-cover.png" alt="Sample screenshots from Circ mockup"></a>
+							</div>
+							<div class="card-body">
+								<h4 class="card-title">
+									<a href="circ.html">Circ</a>
+								</h4>
+								<p class="card-text">Informational and social "circles" or communities for Hispanic caregivers</p>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 mb-4">
-					<div class="card h-100 border-0 shadow">
-						<img class="card-img-top" src="https://via.placeholder.com/700x400/f6e3d7/514840/?text=Coming+Soon">
-						<div class="card-body">
-							<h4 class="card-title">Circ</h4>
-							<p class="card-text">Social and informational 'circles' or communities for caregivers to connect with other caregivers and local health professionals</p>
+			</div>
+		</div>
+
+		
+
+		<!-- Footer -->
+		<footer class="page-footer">
+			<div class="container">
+				<!-- Icons -->
+				<div class="row">
+					<div class="col-md-12 pt-4">
+						<div class="mb-4 flex-center">
+							<a target="_top" href="mailto:aml4dy@virginia.edu" alt="Email icon"><i class="far fa-envelope fa-lg white-text mr-md-5 mr-5"></i></a>
+							<a target="_blank" href="https://drive.google.com/file/d/19mePEhwP5mqri6wgZylMxq4nAel0Tnt0/view" alt="Resume icon"><i class="far fa-file-alt mr-md-5 mr-5"></i></i></a>
+							<a target="_blank" href="https://www.linkedin.com/in/anmluong" alt="LinkedIn icon"><i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-5"></i></a>
+							<a target="_blank" href="https://www.alattefood.com/naturally-sweetened-banana-bread-scones/" alt="Cooking icon" ><i class="fas fa-utensils fa-lg white-text"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-
-	<!-- Footer -->
-	<footer class="page-footer">
-		<div class="container">
-			<!-- Icons -->
-			<div class="row">
-				<div class="col-md-12 pt-4">
-					<div class="mb-4 flex-center">
-						<a target="_top" href="mailto:aml4dy@virginia.edu" alt="Email icon"><i class="far fa-envelope fa-lg white-text mr-md-5 mr-4"></i></a>
-						<a target="_blank" href="https://drive.google.com/file/d/19mePEhwP5mqri6wgZylMxq4nAel0Tnt0/view" alt="Resume icon"><i class="far fa-file-alt mr-md-5 mr-4"></i></i></a>
-						<a target="_blank" href="https://www.linkedin.com/in/anmluong" alt="LinkedIn icon"><i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-4"></i></a>
-						<a target="_blank" href="https://www.alattefood.com/naturally-sweetened-banana-bread-scones/" alt="Cooking icon" ><i class="fas fa-utensils fa-lg white-text"></i></a>
-					</div>
-				</div>
+			<div class="pt-1 text-center name-footer">
+				<p>made by <span id="name">An Luong</span></p>
 			</div>
-		</div>
-		<div class="pt-1 text-center name-footer">
-			<p>designed and developed by <span id="name">An Luong</span></p>
-		</div>
-	</footer>
+		</footer>
 
-</body>
+	</body>
+</div>
 </html>
