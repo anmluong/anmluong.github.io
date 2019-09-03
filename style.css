@@ -315,6 +315,10 @@ nav>a:hover {
   margin: 50px 0 40px 0;
 }
 
+.section img {
+  max-width: 100%;
+}
+
 /* About */
 .container-picture {
   text-align: center;
