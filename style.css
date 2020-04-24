@@ -375,6 +375,18 @@ footer i:hover {
   color: #342E29;
 }
 
+
+.links-list {
+    display: flex;
+    padding-top: 1.25rem;
+}
+
+.links ul {
+    list-style: none;
+    list-style-type: none;
+    padding-left: 0;
+}
+
 .me {
   background-color: #3e3d27;
   width: 100%;
