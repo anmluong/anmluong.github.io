@@ -298,6 +298,10 @@ nav>a:hover {
   margin: 20px 0 20px 0;
 }
 
+.work .row {
+  margin: 15px 0 15px 0;
+}
+
 .work h3 {
   color: #4b3f3e;
 }

@@ -1,0 +1,298 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+
+	<!-- Site info -->
+	<title>Glucose Control Interface | An Luong</title>
+	<meta name="author" content="An Luong">
+	<meta name="description" content="A personal site to showcase my portfolio">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta property="og:title" content="An Luong"/>
+	<meta property="og:description" content="A personal site to showcase my portfolio">
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="https://anmluong.github.io/"/>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<!-- Styling -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Yeseva+One&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/be2f7e1176.js"></script>
+
+</head>
+
+<div id="container">
+	<body>
+
+		<!-- Navigation -->
+		<div id="header">
+			<header class="clearfix">
+				<div class="container">
+					<div class="header-left">
+						<a class="navbar-brand" href="index.html">
+							<img src="images/elephant.png" alt="Elephant logo" title="An Luong"/>
+						</a>
+					</div>
+					<div class="header-right">
+						<label for="open">
+							<img class="hidden" src="images/pb-jelly-menu.png" alt="Peanut butter jelly sandwich menu icon"/>
+						</label>
+						<input type="checkbox" name="" id="open">
+						<nav>
+							<a href="index.html"><img src="images/doodle.png" alt="Sideways sprig doodle"> work</a>
+							<a href="about.html">about</a>
+							<a target="_blank" href="https://drive.google.com/file/d/19mePEhwP5mqri6wgZylMxq4nAel0Tnt0/view">resume</a>
+						</nav>
+					</div>
+				</div>
+			</header>
+		</div>
+		
+
+		<div id="body">
+			<div class="container work">
+
+				<div class="section">
+
+					<h1 class="text-center">Glucose Control Interface Redesign</h1>
+
+					<p class="text-center"><span id="italics">Increasing responsiveness and accuracy in patient glucose monitoring</span></p>
+
+					<img src="images/glucose/screenshots.png" class="border-0 shadow mb-4" alt="Screenshots from glucose control interface mockup: desktop main patient screen, desktop alert screen, mobile main screen" title="Glucose Control Interface">
+				</div>
+
+				<div class="section">
+
+					<div class="row">
+						<div class="col-sm-12 col-md-6">
+							<h3>what it is</h3>
+							<p>A blood glucose monitoring interface that provides greater visibility, context, and error prevention while nurses take blood glucose measurements and administer insulin to patients.</p>
+
+							<h3>main features</h3>
+							<ul>
+								<li><span id="bold">Clear alarm indicator</span> for time until next blood glucose reading</li>
+								<li><span id="bold">Streamlined one-screen process</span> for glucose reading and insulin administration</li>
+								<li><span id="bold">Visual display</span> of patient history</li>
+								<li><span id="bold">Mobile application counterpart</span> allowing nurses to check patient alarms on the go</li>
+							</ul>
+						</div>
+						<div class="col-sm-12 col-md-6">
+
+							<h3>what i did</h3>
+							<p><span id="bold">Role</span>:</font> User interface designer, user experience designer</p>
+							<p><span id="bold">Skills</span>:</font> Hierarchical task analysis, wireframes, mockups</p>
+
+							<h3>context</h3>
+							<p>3 month group project for Human Machine Interface course</p>
+							<p>This interface is used in intensive care units (ICUs) to monitor patients’ blood glucose (BG) levels according to hospital protocol. Nurses take BG readings at time intervals specified by protocols and patient stability, enter the readings into the interface, and administer the proper dosage of insulin to the patient as calculated by the interface based on the BG entry.</p>						
+						</div>
+					</div>
+				</div>
+
+
+				<div class="section process">
+					<h3 class="text-center">process</h3>
+					<header class="clearfix text-center process-nav">
+						<nav>
+							<a href="#research">research</a>
+							<a href="#problem">problem</a>
+							<a href="#ideation">ideation</a>
+							<a href="#design">design</a>
+							<a href="#next-steps">next steps</a>
+						</nav>
+					</header>
+				</div>
+
+				<div class="section">
+					<h3 span id="research">research</h3>
+					<div class="row">
+						<div class="col-12">
+							<h4>user analysis</h4>
+							<p>Since nurses were essentially the only clinicians using this interface, we identified our two <span id="bold">user groups</span> as:</p>
+							<ul>
+								<li>Nurses <span id="bold">starting a new shift</span> that need time to adjust to the system and review patient statuses but are not as prone to tiredness; would benefit from greater <span id="bold">visibility and understandability</span> of patient history</li>
+								<li>Nurses <span id="bold">ending an 8-12 hour shift</span> that are more prone to mental lapses but are more acclimated to the system and patients; would benefit from <span id="bold">error prevention and error recovery</span></li>
+							</ul>
+
+						</div>
+					</div>
+					<div class="row col-12">
+						<h4>existing system</h4>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 col-md-6">
+							<h5>interface screens</h5>
+							<p>The upper two screens show patient history with a nearly hidden alarm indicator at the top. The lower two screens show the process of entering the BG reading and confirming the calculated insulin dosage.</p>
+							<img src="images/glucose/existing-screens.png" alt="Screens of existing blood glucose interface: top row shows patient history with nearly hidden alarm indicator, bottom row shows the process of entering the BG reading and confirming calculated insulin dosage" title="Existing glucose interface">
+						</div>
+						<div class="col-sm-12 col-md-6">
+							<h5>HTA of existing system</h5>
+							<p>The following simplified hierarchical task analysis (HTA) with highlighted pain points was created for the existing interface.</p>
+							<img src="images/glucose/old-hta.jpg" alt="Hierarchical task analysis (HTA) of existing blood glucose interface" title="HTA for existing system">
+						</div>
+						
+					</div>
+
+					<div class="row">
+						<div class="col-12">
+							<h5>shortfalls</h5>
+							<p>The following shortfalls were gatherered from a heuristic evaluation of the existing interface and the creation of the HTA. Since the BG and insulin tasks are time-sensitive, there was a heavy emphasis on the importance of the BG reading alarm time display.</p>
+							<ul>
+								<li>Lack of <span id="bold">visibility for BG reading alarm</span> may prevent nurses from delivering proper and timely patient care</li>
+								<li>Context of <span id="bold">patient history</span> not provided or available while logging BG reading and viewing insulin dosage, which means nurses may not detect irregular levels or trends in the readings</li>
+								<li>Lack of <span id="bold">visual hierarchy</span> and inefficient use of screen real estate, so nurses aren't guided to the most pertinent information</li>
+								<li>No <span id="bold">error prevention or recovery</span> for mistakes in logging information</li>
+							</ul>
+						</div>
+					</div>
+
+
+
+				</div>
+
+				<div class="section">
+					<h3 span id="problem">problem</h3>
+					<br>
+					<h5 class="text-center"><span id="italics">How might we redesign the glucose control interface with greater visibility, understandability, and error prevention in order to facilitate patient care in a time-sensitive ICU environment?</span></h5>
+				</div>
+
+				<div class="section">
+					<h3 span id="ideation">ideation</h3>
+					<div class="row">
+						<div class="col-sm-12 col-md-6">
+							<p>From our research phase, we determined the following to be the <span id="bold">most important information</span> to nurses:</p>
+							<ul>
+								<li> Basic patient information and patient history</li>
+								<li>Time until next blood glucose reading</li>
+								<li>Whether BG levels are in an acceptable range</li>
+								<li>Insulin dosage based on BG levels</li>
+							</ul>
+							<p>I created the following <span id="bold">HTA for our envisioned interface</span> based on the pain points discovered during research such as lack of error prevention and context.</p>
+
+						</div>
+						<div class="col-sm-12 col-md-6">
+							<img src="images/glucose/new-hta.jpg" alt="Main screen of first iteration of new blood glucose interface system with BG alarm alert">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-12">
+							<h4>first iteration: use case</h4>		
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm-12 col-md-6">
+							<figure>
+								<img src="images/glucose/first-pass-main.png" alt="First iteration of main screen of new blood glucose interface system">
+								<figcaption>Patient William Berringer enters the ICU and is logged into the system by his nurse, John Doe.</figcaption>
+							</figure>
+						</div>
+						<div class="col-sm-12 col-md-6">
+							<figure>
+								<img src="images/glucose/first-pass-alarm.png" alt="First iteration of main screen of new blood glucose interface system with BG alarm alert">
+								<figcaption>Nurse John is alerted to take William's BG reading, so he clicks on the "Enter Glucose Reading" button.</figcaption>
+							</figure>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm-12 col-md-6">
+							<figure>
+								<img src="images/glucose/first-pass-bg.png" alt="First iteration of screen for entering blood glucose reading">
+								<figcaption>Nurse John enters William's BG reading into the system and navigates to the next page to view the proper insulin dosage.</figcaption>
+							</figure>
+						</div>
+						<div class="col-sm-12 col-md-6">
+							<figure>
+								<img src="images/glucose/first-pass-insulin.png" alt="First iteration of screen for viewing insulin dosage">
+								<figcaption>Nurse John enters his initials to confirm the insulin infusion and clicks "Finish" to reset the alarm.</figcaption>
+							</figure>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-12">
+							<h4>improvements to be made</h4>
+							<p>Although the first iteration improved upon the last by increasing visibility of important information and displaying information in context, it was still <span id="bold">functionally very similar to the existing system</span>. These were highlighted changes to be made:</p>
+							<ul>
+								<li>Prioritize <span id="bold">visibility of BG alarm</span> over patient identifying information since the BG alarm is time-sensitive</li>
+								<li>Give <span id="bold">greater prominence to BG entry</span> on the screen since it's the primary task of the interface</li>
+								<li><span id="bold">Condense the process</span> of logging BG reading to one screen so that all required information is available at the same time</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+
+
+				<div class="section">
+
+					<h3 span id="design">design</h3>
+
+					<div class="row">
+						<div class="col-sm-12 col-md-6">
+							<img src="images/glucose/main.png" alt="Redesigned desktop and mobile screens for patient view" title="Glucose control interface design: main screen">
+							<p><span id="bold">Visibility of patient information</span>: Identifying information and patient status is clearly displayed to minimize adjustment period for nurses starting a new shift</p>
+							<p><span id="bold">Understandability of patient history</span>: Visual display of last reading with the context of acceptable ranges and BG history improves nurses' understanding of current patient status</p>
+							<p><span id="bold">Disabled blood glucose entry</span>: Prevents nurse from erroneously entering BG readings before alarm goes off</p>
+							<p><span id="bold">Mobile patient display</span>: Allows nurses to view information on the go</p>
+						</div>
+						<div class="col-sm-12 col-md-6">
+							<img src="images/glucose/alarm.png" alt="Redesigned desktop and mobile screens with alarm alert" title="Glucose control interface design: alarm alert screen">
+							<p><span id="bold">Visibility of blood glucose alarm</span>: Redundancy in the color, icon, remaining time, and snooze button clearly indicates that the nurse needs to take a BG reading</p>
+							<p><span id="bold">Streamlined blood glucose and insulin process</span>: BG entry and insulin dosage administration are done in one page, so nurses don't need to spend time navigating through multiple screens in the time-sensitive ICU environment</p>
+							<p><span id="bold">Error prevention</span>: System checks BG entries against patient history and realistic BG threshold levels to prevent nurses from making errors</p>
+							<p><span id="bold">Mobile overview of all alarms</span>: Allows nurses to remain aware of and anticipate upcoming BG readings</p>
+						</div>
+						
+					</div>
+				</div>
+
+				<div class="section">
+
+					<h3 span id="next-steps">next steps</h3>
+					<p>Due to the nature of this course, <span id="bold">we weren’t given the opportunity to interact with medical professionals, which limited our research efforts</span>. Observing nurses interacting with this system in real-time or interviewing nurses would have provided valuable insights into how this system is used and viewed by one of the most important stakeholder groups: users. Based on feedback by course instructors, next steps for this interface include:</p>
+					<ul>
+						<li>Reconsidering the disabling of the BG panel when there’s still time left on the BG alarm so nurses aren’t completely restricted from entering BG readings</li>
+						<li>Simplifying the information displayed in the BG History graph to minimize clutter</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+	<footer>
+
+		<section class="links">
+			<ul class="links-list col-md-12 flex-wrap">
+				<li><a target="_top" href="mailto:aml4dy@virginia.edu" alt="Email icon"><i class="far fa-envelope fa-lg white-text"></i></a></li>
+				<li><a target="_blank" href="https://drive.google.com/file/d/19mePEhwP5mqri6wgZylMxq4nAel0Tnt0/view" alt="Resume icon"><i class="far fa-file-alt fa-lg white-text"></i></a></li>
+				<li><a target="_blank" href="https://www.linkedin.com/in/anmluong" alt="LinkedIn icon"><i class="fab fa-linkedin-in fa-lg white-text"></i></a></li>
+				<li><a target="_blank" href="https://www.livewellbakeoften.com/soft-chewy-oatmeal-raisin-cookies/?utm_medium=social&utm_source=pinterest&utm_campaign=tailwind_smartloop&utm_content=smartloop&utm_term=1625938" alt="Cooking icon" ><i class="fas fa-utensils fa-lg white-text"></i></a></li>
+			</ul>
+		</section>
+
+
+		<section class="me">
+			<div class="pt-2 name-footer">
+				<p>made by <span id="name">An Luong</span></p>
+			</div>
+		</section>
+
+	</footer>
+
+
+
+</body>
+</div>
+</html>
