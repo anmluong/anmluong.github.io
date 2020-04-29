@@ -234,10 +234,6 @@ nav>a:hover {
   nav>a{
     padding: 0 1.5em;
   }
-  #scroll {
-    bottom: 15px;
-    right: 15px;
-  }
 
 }
  
@@ -259,8 +255,8 @@ nav>a:hover {
     margin-bottom: 10px;
   }
   #scroll {
-    bottom: 10px;
-    right: 10px;
+    bottom: 20px;
+    right: 20px;
     font-size: 1.5em;
     width: 40px;
     height: 40px;
@@ -305,15 +301,6 @@ nav>a:hover {
     width: 25px;
   }
 
-  #scroll {
-  bottom: 5px;
-  right: 5px;
-  font-size: 1em;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-
-  }
 }
 
 
