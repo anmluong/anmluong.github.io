@@ -31,12 +31,22 @@
 	<script src="https://kit.fontawesome.com/be2f7e1176.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
+	<!-- Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166998249-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-166998249-1');
+	</script>
+
 
 </head>
 
 <div id="container">
 	<body>
-		<a id="scroll"><i class="fas fa-angle-up"></i></a>
+		<a tabindex="0" id="scroll"><i class="fas fa-angle-up"></i></a>
 
 		<!-- Navigation -->
 		<div id="header">
@@ -67,68 +77,57 @@
 
 			<!-- Intro -->
 			<div class="container container-header">
-				<h1><span id="main">hello, hello! I'm An.</span></h1>
-				<p>I'm a designer, engineer, and third-year student at UVA.</p>
+				<h1><class="span id="main">Hello, hello! I'm An.</span></h1>
+				<p>I'm a UX designer and Systems Engineering student at the University of Virginia graduating in Spring 2021. Previously at Deloitte Digital. Currently looking for opportunities involving interface design and user research!</p>
 			</div>
 
 			<!-- Work cards -->
 			<div class="container container-work">
 				<div class="row">
-					<div class="col-md-6 mb-4">
+					<div class="col-lg-6 mb-4">
 						<div class="card h-100 border-0 shadow">
 							<div class="card-image">
-								<a href="glucose.html"><img class="card-img-top" src="images/glucose-cover.png" alt="Sample screenshots from glucose control interface redesign" title="Glucose Control Interface"></a>
+								<img class="card-img-top" src="images/glucose-cover.png" alt="Sample screenshots from glucose control interface redesign" title="Glucose Control Interface">
 							</div>
 							<div class="card-body">
-								<h4 class="card-title">
-									<a href="archef.html">Glucose Control Interface</a>
-								</h4>
-								<p class="card-text">Increasing responsiveness and accuracy in patient glucose monitoring</p>
+								<h4 class="card-title">Glucose Control Interface</h4>
+								<p class="card-text">Increasing accuracy and responsiveness in patient glucose monitoring</p>
+								<a href="glucose.html" class="stretched-link"></a>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 mb-4">
+
+					<div class="col-lg-6 mb-4">
 						<div class="card h-100 border-0 shadow">
 							<div class="card-image">
-								<a href="archef.html"><img class="card-img-top" src="images/archef-cover.png" alt="Sample screenshots from ARChef mockup" title="ARChef"></a>
+								<img class="card-img-top" src="images/archef-cover.png" alt="Sample screenshots from ARChef mockup" title="ARChef">
 							</div>
 							<div class="card-body">
-								<h4 class="card-title">
-									<a href="archef.html">ARChef</a>
-								</h4>
-								<p class="card-text">Using augmented reality in recipe tutorials for amateur student cooks</p>
+								<h4 class="card-title">ARChef</h4>
+								<p class="card-text">Using augmented reality in recipe tutorials for beginner student cooks</p>
+								<a href="archef.html" class="stretched-link"></a>
 							</div>
 						</div>
 					</div>
 				</div>
+
 				<div class="row">
-					<div class="col-md-6 mb-4">
+
+					<div class="col-lg-6 mb-4">
 						<div class="card h-100 border-0 shadow">
 							<div class="card-image">
-								<a href="circ.html"><img class="card-img-top" src="images/circ-cover.png" alt="Sample screenshots from Circ mockup" title="Circ"></a>
+								<img class="card-img-top" src="images/edusaspain-cover.png" alt="EducationUSA Spain CCC header image" title="EducationUSA Spain"></a>
 							</div>
 							<div class="card-body">
-								<h4 class="card-title">
-									<a href="circ.html">Circ</a>
-								</h4>
-								<p class="card-text">Informational and social "circles" or communities for Hispanic caregivers</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 mb-4">
-						<div class="card h-100 border-0 shadow">
-							<div class="card-image">
-								<a href="edusaspain.html"><img class="card-img-top" src="images/edusaspain-cover.png" alt="EducationUSA Spain CCC header image" title="EducationUSA Spain"></a>
-							</div>
-							<div class="card-body">
-								<h4 class="card-title">
-									<a href="edusaspain.html">EducationUSA Spain</a>
-								</h4>
+								<h4 class="card-title">EducationUSA Spain</h4>
 								<p class="card-text">Assets created for EducationUSA Spain's site and social media</p>
+								<a href="edusaspain.html" class="stretched-link"></a>
 							</div>
 						</div>
 					</div>
+
 				</div>
+
 			</div>
 		</div>
 
