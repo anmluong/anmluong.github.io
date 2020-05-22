@@ -383,6 +383,7 @@ nav>a:hover, nav>a:focus {
 
 .carousel-caption p {
   color: #191515;
+  text-align: center;
 }
 
 .carousel-control-prev i, .carousel-control-next i {
@@ -418,13 +419,8 @@ nav>a:hover, nav>a:focus {
   margin-bottom: 0px;
 }
 
-.smaller-image{
-  text-align: center;
-  width: 100%;
-}
-
-.smaller-image img {
-  width: 75%;
+#design img {
+  margin: 5px 0 15px 0;
 }
 
 /* Illustrations*/
@@ -453,7 +449,8 @@ nav>a:hover, nav>a:focus {
 
 
 figcaption {
-  font-size: 1em;
+  font-style: italic;
+  text-align: center;
 }
 
 .section img {
