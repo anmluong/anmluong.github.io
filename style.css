@@ -113,6 +113,7 @@ a:hover, a:focus{
   width: 80%;
   margin: 0 auto;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 header {
   width: 100%;
@@ -126,8 +127,14 @@ header {
 .header-left {
   width: 30%;
 }
-.header-left img {
-  height: 40px;
+.navbar-brand p {
+  font-family: 'Alice', 'Didact Gothic', serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #191515;
+}
+.navbar-brand:hover p, .navbar-brand:focus p{
+  color: #307fe2;
 }
 .header-right label {
   position: absolute;
@@ -142,8 +149,6 @@ header {
   transition: background-size .3s;
   -webkit-transform: background-size .3s;
   -ms-transform: background-size .3s;
-
-
 }
 .header-right span:hover, .header-right span:focus {
   color: #307fe2;
@@ -174,7 +179,7 @@ header {
   -ms-transform: all .2s ease-in-out;
 }
 
-.header-right a:hover img {
+.header-right a:hover img, .header-right a:focus img {
   content: url('images/doodle-hover.png');
   height: 15px;
   padding: 0;
@@ -186,7 +191,7 @@ header {
 }
 nav>a {
   text-decoration: none;
-  color: #064eb1;
+  color: #191515;
   position: relative;
   display: inline-block;
   line-height: 40px;
@@ -211,7 +216,6 @@ nav>a:hover, nav>a:focus {
 .hidden {
   display: none;
 }
-
 
 /* Scroll to top button */
 #scroll {
@@ -334,6 +338,11 @@ nav>a:hover, nav>a:focus {
   margin: 25px 0 25px 0;
 }
 
+.work h1 {
+  font-size: 3em;
+  margin-top: -30px;
+}
+
 .work h3 {
   color: #413b3a;
   font-style: italic;
@@ -447,7 +456,6 @@ nav>a:hover, nav>a:focus {
 .img5 { flex: calc(16280/5838); }
 .img6 { flex: calc(1010/1019); }
 
-
 figcaption {
   font-style: italic;
   text-align: center;
@@ -461,16 +469,12 @@ figcaption {
 
 .container-about h1 {
   text-align: center;
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
-#pronunciation {
-  font-family: 'Alice', 'Didact Gothic', serif;
-  color: #064EB1;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 1.25em;
-  text-align: center;
+.container-about h2 {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #f9daf7 65%);
+  display: inline;
 }
 
 .container-picture {
@@ -479,7 +483,7 @@ figcaption {
 }
 
 .container-picture img {
-  width: 75%;
+  width: 100%;
 }
 
 .profile-picture {
@@ -559,6 +563,10 @@ footer i:hover, footer a:focus i {
     margin-right: 0;
     clear: right;
   }
+
+  .container-picture img {
+    width: 75%;
+  }
 }
 
 /* Small monitor */
@@ -567,12 +575,14 @@ footer i:hover, footer a:focus i {
     padding: 0 1.5em;
   }
 
+  .container-picture img {
+    width: 75%;
+  }
+
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-
-
   .container{
     width: 95%;
   }
@@ -601,6 +611,11 @@ footer i:hover, footer a:focus i {
     height: 40px;
     line-height: 40px;
   }
+
+  .container-picture img {
+    width: 75%;
+  }
+
 }
 
 /* Landscape phones and down */
@@ -622,7 +637,7 @@ footer i:hover, footer a:focus i {
   nav>a {
     padding: 0 1em;
     display: block;
-    border-bottom: solid 1px #D1E6FF;
+    border-bottom: solid 1px #efebe8;
   }
   .header-left img {
     height: 40px;
@@ -638,5 +653,9 @@ footer i:hover, footer a:focus i {
   .hidden {
     display: inline-block;
     width: 25px;
+  }
+
+  .container-picture img {
+    width: 75%;
   }
 }
