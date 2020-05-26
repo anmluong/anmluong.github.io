@@ -652,9 +652,12 @@ footer i:hover, footer a:focus i {
   }
   .hidden {
     display: inline-block;
-    width: 25px;
+    width: 40px;
   }
-
+  .hidden img {
+    width: 40px;
+    height: auto;
+  }
   .container-picture img {
     width: 75%;
   }
