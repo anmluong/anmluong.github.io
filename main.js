@@ -12,7 +12,6 @@ $(document).ready(function() {
     }, 125);
     return false;
   });
-
   $('#scroll').on("keydown", function(event){
     if (event.keyCode == 13) {
       $("html, body").animate({
@@ -22,7 +21,6 @@ $(document).ready(function() {
     }
   });
 });
-
 $('#carousel').on('keydown', function(e) {
     if (e.keyCode == 37) {  // left arrow
         $('#carousel').carousel('prev')
@@ -32,7 +30,6 @@ $('#carousel').on('keydown', function(e) {
         }
     }
 });
-
 $('#carousel2').on('keydown', function(e) {
     if (e.keyCode == 37) {  // left arrow
         $('#carousel2').carousel('prev')
