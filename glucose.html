@@ -1,24 +1,19 @@
 <!DOCTYPE HTML>
 <html lang="en">
-
 <head>
-
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<link rel="icon" type="image/ico" href="favicon.ico">
 	<link rel="apple-touch-icon" href="apple-180x180.png">
-
 	<!-- Site info -->
-	<title>Glucose Control Interface - An Luong | UX Designer</title>
+	<title>Glucose Control Interface | An Luong | UX Designer</title>
 	<meta name="author" content="An Luong">
 	<meta name="description" content="A blood glucose monitoring interface that provides greater visibility, context, and error prevention to ensure accurate and responsive patient care in the ICU.">
-
-	<meta property="og:title" content="Glucose Control Interface Redesign | An Luong, UX Designer"/>
+	<meta property="og:title" content="Glucose Control Interface | An Luong | UX Designer"/>
 	<meta property="og:description" content="A blood glucose monitoring interface that provides greater visibility, context, and error prevention to ensure accurate and responsive patient care in the ICU.">
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="https://anmluong.com/">
-
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -26,30 +21,23 @@
 	<script src="main.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
 	<!-- Styling -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Alice&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/be2f7e1176.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
 	<!-- Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166998249-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
-
 		gtag('config', 'UA-166998249-1');
 	</script>
-
-
 </head>
-
 <div id="container">
 	<body>
-		<a tabindex="0" id="scroll"><i class="fas fa-angle-up"></i></a>
-
+		<a tabindex="0" id="scroll" aria-label="Scroll to top" class="shadow"><i class="fas fa-angle-up"></i></a>
 		<!-- Navigation -->
 		<div id="header">
 			<header class="clearfix">
@@ -61,11 +49,11 @@
 					</div>
 					<div class="header-right">
 						<label for="open">
-							<img class="hidden" src="images/pb-jelly-menu.png" alt="Peanut butter jelly sandwich menu icon"/>
+							<img class="hidden" src="images/pb-jelly-menu.png" alt="Navigation menu"/>
 						</label>
 						<input type="checkbox" name="" id="open">
 						<nav>
-							<a href="index.html">work</a>
+							<a href="index.html"><img src="images/doodle.png" alt="Page indicator doodle"> work</a>
 							<a href="about.html">about</a>
 							<a target="_blank" href="https://drive.google.com/file/d/19mePEhwP5mqri6wgZylMxq4nAel0Tnt0/view">resume</a>
 						</nav>
@@ -73,56 +61,42 @@
 				</div>
 			</header>
 		</div>
-		
-
 		<div id="body">
 			<div class="container work">
-
 				<div class="section">
-
 					<h1 class="text-center">Glucose Control Interface</h1>
-
 					<p class="text-center tagline">Redesigning to increase accuracy and responsiveness in patient glucose monitoring</p>
-
 					<img src="images/glucose/screenshots.png" class="border-0 shadow mb-4" alt="Screenshots from glucose control interface mockup: desktop main patient screen, desktop alert screen, mobile main screen">
 				</div>
-
 				<div class="section">
 					<div class="row">
 						<div class="col-sm-12 col-md-4">
 							<p><span id="bold">Role</span>: UX design</p>
 							<p><span id="bold">Tool</span>: Figma</p>
 							<p><span id="bold">Platform</span>: Desktop & mobile</p>
-							<p><span id="bold">Time</span>: 3 months</p>
+							<p><span id="bold">Time</span>: 3 months, Fall '19</p>
 						</div>
 						<div class="col-sm-12 col-md-8">
-							<p>This was a group project for my Human Machine Interface course in the Fall 2019 semester. This interface is used in intensive care units (ICUs) to monitor patients’ blood glucose (BG) levels according to hospital protocol. Nurses take BG readings at time intervals specified by protocols, enter the readings into the interface, and administer the proper dosage of insulin to the patient. This dosage is calculated by the interface system based on the BG entry.</p>
+							<p>This was a group project for my Human Machine Interface course. This interface is used in intensive care units (ICUs) to monitor patients’ blood glucose (BG) levels according to hospital protocol. Nurses take BG readings at time intervals specified by protocols, enter the readings into the interface, and administer the proper dosage of insulin to the patient. This dosage is calculated by the interface system based on the BG entry.</p>
 							<p>As the design lead of our 4-person team, my main contributions were the hierarchical task analyses, heuristic evaluation of the existing system, and interface mockups.</p>
 						</div>
 					</div>
-
 					<div class="row summary">
 						<div class="col-sm-12 col-lg-4">
-							<h3><i class="fas fa-exclamation-circle" aria-hidden="true"></i> Problem</h3>
+							<h3><i class="fas fa-exclamation-circle" aria-hidden="true"></i> Challenge</h3>
 							<p><span id="bold">Medical errors</span> as a result of the poor display and information entry of the glucose control interface will lead to <span id="bold">serious patient health issues</span>. Further, <span id="bold">delayed action</span> in the time-sensitive glucose control process will <span id="bold">hinder patient recovery</span>.</p>
 						</div>
 						<div class="col-sm-12 col-lg-4">
 							<h3><i class="fas fa-question-circle" aria-hidden="true"></i> Question</h3>
 							<p>How might we redesign the glucose control interface to facilitate <span id="bold">accurate and responsive patient care</span> in a time-sensitive ICU environment?</p>
 						</div>
-
 						<div class="col-sm-12 col-lg-4">
 							<h3><i class="fas fa-lightbulb" aria-hidden="true"></i> Solution</h3>
 							<p>A blood glucose monitoring interface that provides <span id="bold">greater visibility, context, and error prevention</span> to ensure patient health and recovery. Main features include a clear alarm indicator, streamlined one-screen process for glucose reading and insulin administration, visual display of patient history, and mobile application counterpart.</p>
-
 						</div>
 					</div>
-
 				</div>
-
 				<hr/>
-
-
 				<div class="section process">
 					<h1 class="text-center">Process</h1>
 					<header class="clearfix text-center process-nav">
@@ -134,7 +108,6 @@
 						</nav>
 					</header>
 				</div>
-
 				<hr/>
 
 				<div class="section" span id="discovery">
@@ -143,7 +116,6 @@
 						<div class="col-sm-12 col-lg-4 pr-3">
 							<h3>User analysis</h3>
 						</div>
-
 						<div class="col-sm-12 col-lg-8">
 							<h4>User groups</h4>
 							<p>Since nurses are the only clinicians using this interface, we identified our two user groups as the following:</p>
@@ -163,7 +135,6 @@
 									</ul>
 								</div>
 							</div>
-
 						</div>
 					</div>
 					<div class="row no-gutters">
@@ -173,19 +144,14 @@
 						<div class="col-sm-12 col-lg-8">
 							<h4>Hierarchical task analysis</h4>
 							<p>To familiarize ourselves with the system and understand fundamental functionalities, I performed a hierarchical task analysis (HTA) with <span id="bold">highlighted tasks</span> that correspond to the following <span id="bold">pain points</span>.</p>
-
 							<p><i class="fas fa-book-medical" aria-hidden="true"></i> There's no condition checking in the system, so nurses must reference hospital protocol documents to determine appropriate blood glucose reading ranges. This puts an additional burden on nurses that may result in medical errors.</p>
-
 							<p><i class="fas fa-file-medical-alt" aria-hidden="true"></i> Nurses are unable to view patient history during BG reading entry, which would prevent them from identifying outlying or irregular readings for individual patients.</p>
-
 							<figure>
 								<img src="images/glucose/old-hta.jpg" alt="Hierarchical task analysis (HTA) of existing blood glucose interface">
 								<figcaption>Hierarchical task analysis of existing system</figcaption>
 							</figure>
-
 							<br>
 							<br>
-
 							<h4>Heuristic evaluation</h4>
 							<p>Once we were acclimated to the glucose control interface, I led the heuristic evaluation of the existing system. A small sample of the usability problems are included below.</p>
 							<div id="carousel" class="carousel slide" data-interval="false" tabindex="-1">
@@ -228,7 +194,6 @@
 										</div>
 									</div>
 								</div>
-
 								<!-- Controls -->
 								<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
 									<i class="fas fa-chevron-left"></i>
@@ -239,7 +204,6 @@
 									<span class="sr-only">Next</span>
 								</a>
 							</div>
-							
 							<h4>Additional insights</h4>
 							<p>From our system analysis and discussions with "users" (TAs), we determined the following to be the most important information to nurses that must be visually prioritized in the interface redesign:</p>
 							<ul>
@@ -248,13 +212,9 @@
 								<li>Whether BG levels are in an acceptable range</li>
 								<li>Insulin dosage based on BG levels</li>
 							</ul>
-
-							
 						</div>
-						
 					</div>
 				</div>
-
 				<div class="section" span id="ideation">
 					<h2>Ideation</h2>
 					<div class="row no-gutters">
@@ -265,14 +225,12 @@
 							<h4>Hierarchical task analysis</h4>
 							<p>I performed the following HTA for our envisioned interface based on the pain points discovered during the discovery phase such as lack of error prevention and context.</p>
 							<p>The <span id="bold">tasks highlighted in blue</span> indicate <span id="bold">areas of improvement</span> upon the previous interface.</p>
-
 							<figure>
 								<img src="images/glucose/new-hta.jpg" alt="Hierarchical task analysis (HTA) of envisioned blood glucose interface">
 								<figcaption>Hierarchical task analysis of envisioned system</figcaption>
 							</figure>
 						</div>
 					</div>
-
 					<div class="row no-gutters">
 						<div class="col-sm-12 col-lg-4">
 							<h3>Preliminary design</h3>
@@ -284,25 +242,20 @@
 								<img src="images/glucose/first-pass-main.png" alt="First iteration of main screen of new blood glucose interface system">
 								<figcaption>Patient William Berringer enters the ICU and is logged into the glucose control interface by his nurse, John Doe.</figcaption>
 							</figure>
-
 							<figure class="mb-5">
 								<img src="images/glucose/first-pass-alarm.png" alt="First iteration of main screen of new blood glucose interface system with BG alarm alert">
 								<figcaption>Nurse John is alerted to take William's BG reading, so he clicks on the "Enter Glucose Reading" button.</figcaption>
 							</figure>
-
 							<figure class="mb-5">
 								<img src="images/glucose/first-pass-bg.png" alt="First iteration of screen for entering blood glucose reading">
 								<figcaption>Nurse John enters William's BG reading into the system and navigates to the next page to view the proper insulin dosage.</figcaption>
 							</figure>
-
 							<figure>
 								<img src="images/glucose/first-pass-insulin.png" alt="First iteration of screen for viewing insulin dosage">
 								<figcaption><p>Nurse John enters his initials to confirm the insulin infusion and clicks "Finish" to reset the alarm.</p></figcaption>
 							</figure>
-
 						</div>
 					</div>
-
 					<div class="row no-gutters">
 						<div class="col-sm-12 col-lg-4 pr-3">
 							<h3>Feedback & reflection</h3>
@@ -316,12 +269,8 @@
 							</ul>
 						</div>
 					</div>
-
 				</div>
-
-
 				<div class="section" span id="design">
-
 					<h2>Design</h2>
 					<h3>Patient home screen</h3>					
 					<img src="images/glucose/main.png" alt="Redesigned desktop and mobile screens for patient view">
@@ -329,18 +278,14 @@
 					<p><span id="bold">Understandability of patient history</span>: Visual display of last BG reading paired with context of acceptable ranges and extended BG history improves nurses' understanding of current patient status</p>
 					<p><span id="bold">Disabled blood glucose entry</span>: Prevents nurse from erroneously entering BG readings before alarm goes off</p>
 					<p><span id="bold">Mobile patient display</span>: Allows nurses to view information on the go, increasing responsiveness</p>
-
 					<br/>
-
 					<h3>Patient alert screen</h3>
 					<img src="images/glucose/alarm.png" alt="Redesigned desktop and mobile screens with alarm alert">
 					<p><span id="bold">Visibility of blood glucose alarm</span>: Redundancy in the color, icon, remaining time, and snooze button clearly indicates that the nurse needs to take a BG reading</p>
 					<p><span id="bold">Streamlined blood glucose and insulin process</span>: BG entry and insulin dosage administration are done in one page, so nurses avoid spending unnecessary time navigating through multiple screens</p>
 					<p><span id="bold">Error prevention</span>: System checks BG entries against patient history and realistic BG threshold levels to prevent nurses from making errors</p>
 					<p><span id="bold">Mobile overview of all alarms</span>: Allows nurses to remain aware of and anticipate upcoming BG readings</p>
-
 				</div>
-
 				<div class="section" span id="reflection">
 					<h2>Reflection</h2>
 					<p>We didn't have the opportunity to interact with medical professionals, which limited our research efforts with observations and interviews. Further, due to the nature of this course, we did not conduct user testing. Although this redesign is an improvement upon the existing system based on heuristics and design principles, we don't know whether the system would improve patient care without more extensive research or improve accuracy and responsiveness without testing.</p>
@@ -353,30 +298,21 @@
 				</div>
 			</div>
 		</div>
-
-
 		<footer>
-
 			<section class="links">
 				<ul class="links-list col-md-12 flex-wrap">
-					<li><a target="_top" href="mailto:anmluong@virginia.edu" alt="Email icon"><i class="far fa-envelope fa-lg white-text"></i></a></li>
-					<li><a target="_blank" href="https://drive.google.com/file/d/19mePEhwP5mqri6wgZylMxq4nAel0Tnt0/view" alt="Resume icon"><i class="far fa-file-alt fa-lg white-text"></i></a></li>
-					<li><a target="_blank" href="https://www.linkedin.com/in/anmluong" alt="LinkedIn icon"><i class="fab fa-linkedin-in fa-lg white-text"></i></a></li>
-					<li><a target="_blank" href="https://www.bonappetit.com/recipe/adult-mac-and-cheese" alt="Cooking icon" ><i class="fas fa-utensils fa-lg white-text"></i></a></li>
+					<li><a target="_top" href="mailto:anmluong@virginia.edu" aria-label="Send me an email at anmluong@virginia.edu"><i class="far fa-envelope fa-lg white-text"></i></a></li>
+					<li><a target="_blank" href="https://drive.google.com/file/d/19mePEhwP5mqri6wgZylMxq4nAel0Tnt0/view" aria-label="View my resume (opens in new tab)"><i class="far fa-file-alt fa-lg white-text"></i></a></li>
+					<li><a target="_blank" href="https://www.linkedin.com/in/anmluong" aria-label="View my LinkedIn profile (opens in new tab)"><i class="fab fa-linkedin-in fa-lg white-text"></i></a></li>
+					<li><a target="_blank" href="https://www.bonappetit.com/recipe/adult-mac-and-cheese" aria-label="View one of my favorite recipes (opens in new tab)"><i class="fas fa-utensils fa-lg white-text"></i></a></li>
 				</ul>
 			</section>
-
-
 			<section class="me">
 				<div class="pt-2 name-footer">
-					<p>made by <span id="name">An Luong</span></p>
+					<p>made by <span id="name">an luong</span></p>
 				</div>
 			</section>
-
 		</footer>
-
-
-
 	</body>
 </div>
 </html>
