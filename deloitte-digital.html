@@ -143,15 +143,15 @@
 					<img src="images/deloitte/round1.png" class="border-0 mb-4" alt="Four pieces of paper representing forms: the first with the Household and Head of Household icons, the second with the Household Member icon, the third with a checked circle, and the fourth with a Submit button">
 					<figcaption>Household > Member > Certification > Submit</figcaption>
 				</figure>
+				<h3>Creating our first mockups with the design system</h3>
+				<p>I identified components from the Salesforce Lightning Design System that could be used for our flow and took a first pass at creating our Sketch mockups.</p>
+				<p><span id="bold">I unfortunately don't have images of our screen iterations, but you can follow our thought process with my doodles!</span> Since we used a design system, the main visual changes were seen in the layout of the form components.</p>
 				<h3>Round 2: Streamlining the process</h3>
 				<p>From our documentation, we knew that the typical Household size was 1-2 people, meaning we could streamline the flow by <span id="bold">combining the Household and Certification steps</span> (i.e. the minimum amount of information required to complete the flow). This would allow users to skip the second step in a typical Household creation.</p>
 				<figure class="doodle">
 					<img src="images/deloitte/round2.png" class="border-0 mb-4" alt="">
 					<figcaption>Household + Certification > Member > Submit</figcaption>
 				</figure>
-				<h3>Creating our first mockups with the design system</h3>
-				<p>I identified components from the Salesforce Lightning Design System that could be used for our flow and took a first pass at creating our Sketch mockups. Frequent design reviews with product managers and architects led to revisions seen in Rounds 3 and 4.</p>
-				<p><span id="bold">I unfortunately don't have images of our screen iterations, but you can follow our thought process with my doodles!</span> Since we used a design system, the main visual changes were seen in the layout of the form components.</p>
 				<h3>Round 3: Finding informational dependencies</h3>
 				<p>Reviewing our designs with the product manager revealed an important information dependency that wasn't documented from the OOTB flow. <span id="bold">Certification details</span> (e.g. length of certification) <span id="bold">depend on Household members' inputted details</span>, but we had revised the OOTB flow to have Certification grouped into our very first step. This meant we couldn't consider additional Household Members into certification. I then revised the flow to <span id="bold">separate Certification as its own step again</span> and included relevant read-only Household information to inform these inputs.</p>
 				<figure class="doodle">
