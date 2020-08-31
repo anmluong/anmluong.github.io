@@ -7,11 +7,11 @@
 	<link rel="icon" type="image/ico" href="favicon.ico">
 	<link rel="apple-touch-icon" href="apple-180x180.png">
 	<!-- Site info -->
-	<title>An Luong | UX Designer</title>
+	<title>An Luong</title>
 	<meta name="author" content="An Luong">
-	<meta name="description" content="I'm a UX designer and rising fourth-year Systems Engineering major at UVA.">
-	<meta property="og:title" content="An Luong, UX Designer"/>
-	<meta property="og:description" content="I'm a UX designer and rising fourth-year Systems Engineering major at UVA.">
+	<meta name="description" content="I'm a Product Designer and fourth-year Systems Engineering major at UVA.">
+	<meta property="og:title" content="An Luong | Product Designer"/>
+	<meta property="og:description" content="I'm a Product Designer and fourth-year Systems Engineering major at UVA.">
 	<meta property="og:type" content="website"/>
 	<meta property="og:url" content="https://anmluong.com/"/>
 	<!-- Bootstrap -->
@@ -38,7 +38,7 @@
 </head>
 <div id="container">
 	<body>
-		<a tabindex="0" id="scroll" aria-label="Scroll to top" class="shadow"><i class="fas fa-angle-up"></i></a>
+		<a tabindex="0" id="scroll" aria-label="Scroll to top"><i class="fas fa-angle-up"></i></a>
 		<!-- Navigation -->
 		<div id="header">
 			<header class="clearfix">
@@ -56,7 +56,6 @@
 						<nav>
 							<a href="#"><img src="images/doodle.png" alt="Page indicator doodle"> work</a>
 							<a href="about.html">about</a>
-							<a target="_blank" href="https://drive.google.com/file/d/19mePEhwP5mqri6wgZylMxq4nAel0Tnt0/view">resume</a>
 						</nav>
 					</div>
 				</div>
@@ -64,48 +63,34 @@
 		</div>
 		<div id="body">
 			<!-- Intro -->
-			<div class="container container-header mb-5">
-				<h1><span id="main">Hello, hello! I'm An.</span></h1>
-				<p class="text-center">I'm a <span class="highlight-magenta">UX designer</span> and <span class="highlight-orange">Systems Engineering student</span> at the University of Virginia graduating in Spring 2021. Previously at Deloitte Digital.</p>
+			<div class="section personal half text-center mb-5">
+				<h1>Hello, hello! I'm An.</h1>
+				<p>I'm a <span class="highlight-magenta">Product Designer</span> and <span class="highlight-orange">Systems Engineering student</span> who loves baking, mentoring, PB&amp;J, and podcasts. I'm based in DC and open to relocating for new grad design roles.</p>
 			</div>
 			<!-- Work cards -->
-			<div class="container container-work">
+			<div class="section half">
 				<div class="row">
 					<div class="col-lg-6 mb-4">
-						<div class="card h-100 border-0 shadow">
+						<div class="card border-0">
 							<div class="card-image">
-								<img class="card-img-top" src="images/deloitte/deloitte-cover.png" alt="Sample screenshots from Salesforce Household creation flow">
+								<img class="card-img-top" src="images/archef/archef-cover.jpg" alt="Sample screenshots from ARChef mockup">
 							</div>
 							<div class="card-body">
-								<h2 class="card-title">Deloitte Digital Internship</h2>
+								<h2 class="card-title">ARChef &#8702;</h2>	
+								<p class="card-text">Using AR in recipe tutorials to break down the learning curve for college cooking</p>
+								<a href="archef.html" class="stretched-link" aria-label="Read more about ARChef"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 mb-4">
+						<div class="card border-0">
+							<div class="card-image">
+								<img class="card-img-top" src="images/deloitte/deloitte-cover.jpg" alt="Sample screenshots from Salesforce Household creation flow">
+							</div>
+							<div class="card-body">
+								<h2 class="card-title">Deloitte Digital &#8702;</h2>
 								<p class="card-text">Modernizing a federal aid program's legacy system with Salesforce</p>
 								<a href="deloitte-digital.html" class="stretched-link" aria-label="Read more about my Deloitte Digital internship"></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 mb-4">
-						<div class="card h-100 border-0 shadow">
-							<div class="card-image">
-								<img class="card-img-top" src="images/glucose/glucose-cover.png" alt="Sample screenshots from glucose control interface redesign">
-							</div>
-							<div class="card-body">
-								<h2 class="card-title">Glucose Control Interface</h2>	
-								<p class="card-text">Redesigning to increase accuracy and responsiveness in patient glucose monitoring</p>	
-								<a href="glucose.html" class="stretched-link" aria-label="Read more about the Glucose Control Interface"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-6 mb-4">
-						<div class="card h-100 border-0 shadow">
-							<div class="card-image">
-								<img class="card-img-top" src="images/archef/archef-cover.png" alt="Sample screenshots from ARChef mockup">
-							</div>
-							<div class="card-body">
-								<h2 class="card-title">ARChef</h2>	
-								<p class="card-text">Using augmented reality in recipe tutorials for beginner student cooks</p>	
-								<a href="archef.html" class="stretched-link" aria-label="Read more about ARChef"></a>
 							</div>
 						</div>
 					</div>
@@ -115,16 +100,11 @@
 		<footer>
 			<section class="links">
 				<ul class="links-list col-md-12 flex-wrap">
-					<li><a target="_top" href="mailto:anmluong@virginia.edu" aria-label="Send me an email at anmluong@virginia.edu"><i class="far fa-envelope fa-lg white-text"></i></a></li>
+					<li><a target="_top" href="mailto:anmluong@gmail.com" aria-label="Send me an email at anmluong@gmail.com"><i class="far fa-envelope fa-lg white-text"></i></a></li>
 					<li><a target="_blank" href="https://drive.google.com/file/d/19mePEhwP5mqri6wgZylMxq4nAel0Tnt0/view" aria-label="View my resume (opens in new tab)"><i class="far fa-file-alt fa-lg white-text"></i></a></li>
 					<li><a target="_blank" href="https://www.linkedin.com/in/anmluong" aria-label="View my LinkedIn profile (opens in new tab)"><i class="fab fa-linkedin-in fa-lg white-text"></i></a></li>
 					<li><a target="_blank" href="https://www.bonappetit.com/recipe/easy-no-knead-focaccia" aria-label="View one of my favorite recipes (opens in new tab)"><i class="fas fa-utensils fa-lg white-text"></i></a></li>
 				</ul>
-			</section>
-			<section class="me">
-				<div class="pt-2 name-footer">
-					<p>made by <span id="name">an luong</span></p>
-				</div>
 			</section>
 		</footer>
 	</body>
