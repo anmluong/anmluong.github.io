@@ -1,2 +1,551 @@
-h1,h2{font-family:Alice,"Didact Gothic",serif;font-weight:700;color:#191515}h1{font-size:3em;margin-top:0.5em}h3,h4,h5,h6{font-family:"Didact Gothic",sans-serif;color:#383332;font-weight:700;font-size:1.5em;margin-top:1em}h4,h5,h6{font-size:1.25em}li,ol,p,ul{font-family:"Didact Gothic",sans-serif;color:#191515}figcaption{font-family:"Didact Gothic",sans-serif;color:#383332;text-align:center}html{scroll-behavior:smooth}body{padding:0;margin:0;outline:0;border:none;background:#fff;overflow-x:hidden;overflow-y:scroll}body .work img{width:100%}body,html{margin:0;padding:0;height:100%}#container{padding-bottom:20px;min-height:100%;position:relative}#body{padding:10px;padding-bottom:115px}:focus{outline:0;border-radius:0.2em;box-shadow:0 0 0 2px var(--focus-inner-color), 0 0 0 0.4em var(--focus-outer-color)}*{--focus-inner-color:hsla(213,75%,54%,1);--focus-outer-color:hsla(203,81%,75%,0.75)}a{color:#307fe2;text-decoration:underline}a:focus,a:hover{color:#891567}#bold{font-weight:700}#italics{font-style:italic}#name{font-family:Alice,"Didact Gothic",serif;font-weight:700}.clearfix{margin:0;padding:0;outline:0;border:none;-webkit-box-sizing:border-box}.clearfix:after,.clearfix:before{display:table;line-height:0;content:"";-webkit-box-sizing:border-box}.clearfix:after{clear:both}.clearfix a{font-family:"Didact Gothic",sans-serif;font-weight:700;text-decoration:none}.container{width:60%;margin:0 auto;margin-top:10px;margin-bottom:20px}header{width:100%;height:auto}.header-left,.header-right{position:relative;float:left}.header-left{width:30%}.navbar-brand p{font-family:Alice,"Didact Gothic",serif;font-weight:700;font-size:1.2em;color:#191515}.navbar-brand:focus p, .navbar-brand:hover p{color:#307fe2}.header-right label{position:absolute;top:-3.7em;right:0;cursor:pointer}.header-right span{position:relative;width:2em;height:2em;transition:background-size 0.3s;-webkit-transform:background-size 0.3s;-ms-transform:background-size 0.3s}.header-right span:focus, .header-right span:hover{color:#307fe2}.header-right span:after, .header-right span:before{content:"";position:absolute;width:2em;height:0.5em;top:4px;left:0;background:#576e8d}.header-right span:after{top:14px}.header-right{width:70%;text-align:right}.header-right a img{height:15px;padding:0;margin:0;transition:all 0.2s ease-in-out;-webkit-transform:all 0.2s ease-in-out;-ms-transform:all 0.2s ease-in-out}.header-right a:focus img, .header-right a:hover img{content:url(images/doodle-hover2.png);height:15px;padding:0;margin:0}#open{display:none}nav>a{text-decoration:none;color:#191515;position:relative;display:inline-block;line-height:40px;padding:0 2em;-webkit-transition:all 0.3s ease;background-image:linear-gradient(#307fe2, #307fe2);background-position:0 100%;background-repeat:no-repeat;background-size:0 2px;transition:background-size 0.3s;-webkit-transform:background-size 0.3s;-ms-transform:background-size 0.3s}nav>a:focus,nav>a:hover{color:#307fe2;background-size:100% 2px;text-decoration:none}.hidden{display:none}#scroll{position:fixed;width:70px;height:70px;text-align:center;border-radius:100px;bottom:30px;right:30px;cursor:pointer;font-size:2em;line-height:70px;z-index:1000;visibility:hidden;background-color:#fff}#scroll i{font-family:FontAwesome;font-weight:400;font-size:1.25em;font-style:normal;color:#1e100f;text-decoration:none}#scroll:hover,a#scroll:focus{background-color:#307fe2}#scroll:hover i, a#scroll:focus i{color:#fff}.highlight-magenta{background:linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #f9d7ef 65%);display:inline;transition:all 0.3s ease-in-out;-webkit-transform:all 0.3s ease-in-out;-ms-transform:all 0.2s ease-in-out}.highlight-orange{background:linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #f7e2d6 65%);transition:all 0.3s ease-in-out;-webkit-transform:all 0.3s ease-in-out;-ms-transform:all 0.3s ease-in-out}.highlight-magenta:hover,.highlight-orange:hover{font-size:1.1em}.card-image img{max-height:400px;width:auto}.card-image{max-height:450px;width:auto}.card-title{font-weight:700;color:#191515;text-decoration:none;background-image:linear-gradient(#383332, #383332);background-position:0 100%;background-repeat:no-repeat;background-size:0 2px;transition:background-size 0.3s;-webkit-transform:background-size 0.3s;-ms-transform:background-size 0.3s}.card:hover .card-title{color:#383332;background-size:100% 2px}.card:focus-within .card-title{color:#383332;background-size:100% 2px}.card-body:focus-within .card-title{outline:0;border-radius:0.2em;box-shadow:0 0 0 2px var(--focus-inner-color), 0 0 0 0.4em var(--focus-outer-color)}.stretched-link{text-decoration:none;box-shadow:none;border-radius:none}.inactive .card-title, .inactive:hover .card-title{color:#191515;background-image:none}.section{margin-bottom:3em}.row{margin:2em 0 2em 0}.row .doodle, .row .doodle-full{margin-bottom:1em}.section h2{margin-top:2em}.card h2{margin-top:0}.personal h1{color:#307fe2}.design figcaption, .design h2, .design h3, .design p,.half{margin:0 20% 0 20%}hr{width:60%}.section img{display:block;margin-left:auto;margin-right:auto;max-width:100%}.section figure{display:block;margin-left:auto;margin-right:auto}.design h2{margin-top:1em}.design h3{font-size:1.5em;margin-top:1em}.design p{margin-top:0.5em;margin-bottom:0.5em}.design figcaption{text-align:center}figure{margin-bottom:2vw}.doodle-display{display:flex}.doodle{display:block;width:60%}.doodle-full{display:block;width:100%}.profile-pic{width:40%;border-radius:50%}.bottom-nav a{font-family:Alice,"Didact Gothic",serif;font-size:2em;font-weight:700;text-decoration:none;background-image:linear-gradient(#891567, #891567);background-position:0 100%;background-repeat:no-repeat;background-size:0 2px;transition:background-size 0.3s;-webkit-transform:background-size 0.3s;-ms-transform:background-size 0.3s}.bottom-nav a:hover{color:#891567;background-size:100% 2px}footer{text-align:center;background-color:#faece4;margin:0;padding:0;width:100%;position:absolute;bottom:0}footer i{color:#891567;transition:all 0.2s ease-in-out;-webkit-transform:all 0.2s ease-in-out;-ms-transform:all 0.2s ease-in-out;margin:1em 0 1em 0}footer a:focus i, footer i:hover{color:#191515;-webkit-transform:scale(1.3);-ms-transform:scale(1.3);transform:scale(1.3)}.links-list{display:flex;padding-top:1.25rem;justify-content:center}.links-list li{margin:0 1.5rem 0 1.5rem}.links ul{list-style:none;list-style-type:none;padding-left:0}.me{background-color:#891567;width:100%;display:flex;flex-wrap:wrap;justify-content:center;align-items:center}.name-footer p{color:#fff}@media (min-width: 768px) and (max-width: 979px){.box{width:49%;margin-bottom:5%}ul li:nth-child(3) .box{clear:both}ul li:nth-child(2n) .box{margin-right:0;clear:right}}@media (max-width: 979px){nav>a{padding:0 1.5em}}@media (max-width: 767px){.container{width:95%}.design figcaption, .design h2, .design h3, .design p,.half{margin:0 10% 0 10%}.design p{margin-top:0.5em;margin-bottom:0.5em}.design h2{margin-top:1em}.design h3{font-size:1.5em;margin-top:1em}.container-header p{max-width:100%}nav>a{padding:0 2em}.header-left,.header-right{width:100%;text-align:center}.header-left img{height:60px;margin-bottom:10px}#scroll{bottom:20px;right:20px}.profile-pic{width:80%}}@media (max-width: 480px){.design figcaption, .design h2, .design h3, .design p,.half{margin:0 2% 0 2%}.doodle{width:100%}.design p{margin-top:0.5em;margin-bottom:0.5em}.design h2{margin-top:1em}.design h3{font-size:1.5em;margin-top:1em}body{padding:0 0.1em}.container{width:99%}nav{height:0;overflow:hidden;-webkit-transition:all 0.3s ease}input[type="checkbox"]:checked+nav{height:205px}nav>a{padding:0 1em;display:block;border-bottom:solid 1px #efebe8}.header-left img{height:40px}.header-left{width:100%;text-align:center}.header-right{width:100%;text-align:center}.hidden{display:inline-block;width:35px}.hidden img{width:35px;height:auto}.profile-pic{width:100%}}
-
+h1,
+h2 {
+    font-family: Alice, "Didact Gothic", serif;
+    font-weight: 700;
+    color: #191515;
+}
+h1 {
+    font-size: 3em;
+    margin-top: 0.5em;
+}
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Didact Gothic", sans-serif;
+    color: #383332;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+h4,
+h5,
+h6 {
+    font-size: 1.25em;
+}
+li,
+ol,
+p,
+ul {
+    font-family: "Didact Gothic", sans-serif;
+    color: #191515;
+}
+figcaption {
+    font-family: "Didact Gothic", sans-serif;
+    color: #383332;
+    text-align: center;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    border: none;
+    background: #fff;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body .work img {
+    width: 100%;
+}
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+#container {
+    padding-bottom: 20px;
+    min-height: 100%;
+    position: relative;
+}
+#body {
+    padding: 10px;
+    padding-bottom: 115px;
+}
+:focus {
+    outline: 0;
+    border-radius: 0.2em;
+    box-shadow: 0 0 0 2px var(--focus-inner-color), 0 0 0 0.4em var(--focus-outer-color);
+}
+* {
+    --focus-inner-color: hsla(213, 75%, 54%, 1);
+    --focus-outer-color: hsla(203, 81%, 75%, 0.75);
+}
+a {
+    color: #307fe2;
+    text-decoration: underline;
+}
+a:focus,
+a:hover {
+    color: #891567;
+}
+#bold {
+    font-weight: 700;
+}
+#italics {
+    font-style: italic;
+}
+#name {
+    font-family: Alice, "Didact Gothic", serif;
+    font-weight: 700;
+}
+.clearfix {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    -webkit-box-sizing: border-box;
+}
+.clearfix:after,
+.clearfix:before {
+    display: table;
+    line-height: 0;
+    content: "";
+    -webkit-box-sizing: border-box;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix a {
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+.container {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+header {
+    width: 100%;
+    height: auto;
+}
+.header-left,
+.header-right {
+    position: relative;
+    float: left;
+}
+.header-left {
+    width: 30%;
+}
+.navbar-brand p {
+    font-family: Alice, "Didact Gothic", serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #191515;
+}
+.navbar-brand:focus p,
+.navbar-brand:hover p {
+    color: #307fe2;
+}
+.header-right label {
+    position: absolute;
+    top: -3.7em;
+    right: 0;
+    cursor: pointer;
+}
+.header-right span {
+    position: relative;
+    width: 2em;
+    height: 2em;
+    transition: background-size 0.3s;
+    -webkit-transform: background-size 0.3s;
+    -ms-transform: background-size 0.3s;
+}
+.header-right span:focus,
+.header-right span:hover {
+    color: #307fe2;
+}
+.header-right span:after,
+.header-right span:before {
+    content: "";
+    position: absolute;
+    width: 2em;
+    height: 0.5em;
+    top: 4px;
+    left: 0;
+    background: #576e8d;
+}
+.header-right span:after {
+    top: 14px;
+}
+.header-right {
+    width: 70%;
+    text-align: right;
+}
+.header-right a img {
+    height: 15px;
+    padding: 0;
+    margin: 0;
+    transition: all 0.2s ease-in-out;
+    -webkit-transform: all 0.2s ease-in-out;
+    -ms-transform: all 0.2s ease-in-out;
+}
+.header-right a:focus img,
+.header-right a:hover img {
+    content: url(images/doodle-hover2.png);
+    height: 15px;
+    padding: 0;
+    margin: 0;
+}
+#open {
+    display: none;
+}
+nav > a {
+    text-decoration: none;
+    color: #191515;
+    position: relative;
+    display: inline-block;
+    line-height: 40px;
+    padding: 0 2em;
+    -webkit-transition: all 0.3s ease;
+    background-image: linear-gradient(#307fe2, #307fe2);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0 2px;
+    transition: background-size 0.3s;
+    -webkit-transform: background-size 0.3s;
+    -ms-transform: background-size 0.3s;
+}
+nav > a:focus,
+nav > a:hover {
+    color: #307fe2;
+    background-size: 100% 2px;
+    text-decoration: none;
+}
+.hidden {
+    display: none;
+}
+#scroll {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 100px;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    font-size: 2em;
+    line-height: 70px;
+    z-index: 1000;
+    visibility: hidden;
+    background-color: #fff;
+}
+#scroll i {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-size: 1.25em;
+    font-style: normal;
+    color: #1e100f;
+    text-decoration: none;
+}
+#scroll:hover,
+a#scroll:focus {
+    background-color: #307fe2;
+}
+#scroll:hover i,
+a#scroll:focus i {
+    color: #fff;
+}
+.highlight-magenta {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #f9d7ef 65%);
+    display: inline;
+}
+.highlight-peach {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #f7e2d6 65%);
+    display: inline;
+}
+.card-image img {
+    max-height: 400px;
+    width: auto;
+}
+.card-image {
+    max-height: 450px;
+    width: auto;
+}
+.card-title {
+    font-weight: 700;
+    color: #191515;
+    text-decoration: none;
+    background-image: linear-gradient(#383332, #383332);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0 2px;
+    transition: background-size 0.3s;
+    -webkit-transform: background-size 0.3s;
+    -ms-transform: background-size 0.3s;
+}
+.card:hover .card-title {
+    color: #383332;
+    background-size: 100% 2px;
+}
+.card:focus-within .card-title {
+    color: #383332;
+    background-size: 100% 2px;
+}
+.card-body:focus-within .card-title {
+    outline: 0;
+    border-radius: 0.2em;
+    box-shadow: 0 0 0 2px var(--focus-inner-color), 0 0 0 0.4em var(--focus-outer-color);
+}
+.stretched-link {
+    text-decoration: none;
+    box-shadow: none;
+    border-radius: none;
+}
+.section {
+    margin-bottom: 3em;
+}
+.row {
+    margin: 2em 0 2em 0;
+}
+.row .doodle,
+.row .doodle-full {
+    margin-bottom: 1em;
+}
+.section h2 {
+    margin-top: 2em;
+}
+.card h2 {
+    margin-top: 0;
+}
+.personal h1 {
+    color: #307fe2;
+}
+.design figcaption,
+.design h2,
+.design h3,
+.design p,
+.half {
+    margin: 0 20% 0 20%;
+}
+hr {
+    width: 60%;
+}
+.section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+.section figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.design h2 {
+    margin-top: 1em;
+}
+.design h3 {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+.design p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.design figcaption {
+    text-align: center;
+}
+figure {
+    margin-bottom: 2vw;
+}
+.doodle-display {
+    display: flex;
+}
+.doodle {
+    display: block;
+    width: 60%;
+}
+.doodle-full {
+    display: block;
+    width: 100%;
+}
+.profile-pic {
+    width: 40%;
+    border-radius: 50%;
+}
+.bottom-nav a {
+    font-family: Alice, "Didact Gothic", serif;
+    font-size: 2em;
+    font-weight: 700;
+    text-decoration: none;
+    background-image: linear-gradient(#891567, #891567);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0 2px;
+    transition: background-size 0.3s;
+    -webkit-transform: background-size 0.3s;
+    -ms-transform: background-size 0.3s;
+}
+.bottom-nav a:hover {
+    color: #891567;
+    background-size: 100% 2px;
+}
+footer {
+    text-align: center;
+    background-color: #FAECE4;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+footer i {
+    color: #891567;
+    transition: all 0.2s ease-in-out;
+    -webkit-transform: all 0.2s ease-in-out;
+    -ms-transform: all 0.2s ease-in-out;
+    margin: 1em 0 1em 0;
+}
+footer a:focus i,
+footer i:hover {
+    color: #191515;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+.links-list {
+    display: flex;
+    padding-top: 1.25rem;
+    justify-content: center;
+}
+.links-list li {
+    margin: 0 1.5rem 0 1.5rem;
+}
+.links ul {
+    list-style: none;
+    list-style-type: none;
+    padding-left: 0;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .box {
+        width: 49%;
+        margin-bottom: 5%;
+    }
+    ul li:nth-child(3) .box {
+        clear: both;
+    }
+    ul li:nth-child(2n) .box {
+        margin-right: 0;
+        clear: right;
+    }
+}
+@media (max-width: 979px) {
+    nav > a {
+        padding: 0 1.5em;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        width: 95%;
+    }
+    .design figcaption,
+    .design h2,
+    .design h3,
+    .design p,
+    .half {
+        margin: 0 10% 0 10%;
+    }
+    .design p {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+    .design h2 {
+        margin-top: 1em;
+    }
+    .design h3 {
+        font-size: 1.5em;
+        margin-top: 1em;
+    }
+    .container-header p {
+        max-width: 100%;
+    }
+    nav > a {
+        padding: 0 2em;
+    }
+    .header-left,
+    .header-right {
+        width: 100%;
+        text-align: center;
+    }
+    .header-left img {
+        height: 60px;
+        margin-bottom: 10px;
+    }
+    #scroll {
+        bottom: 20px;
+        right: 20px;
+    }
+    .profile-pic {
+        width: 80%;
+    }
+}
+@media (max-width: 480px) {
+    .design figcaption,
+    .design h2,
+    .design h3,
+    .design p,
+    .half {
+        margin: 0 2% 0 2%;
+    }
+    .doodle {
+        width: 100%;
+    }
+    .design p {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+    .design h2 {
+        margin-top: 1em;
+    }
+    .design h3 {
+        font-size: 1.5em;
+        margin-top: 1em;
+    }
+    body {
+        padding: 0 0.1em;
+    }
+    .container {
+        width: 99%;
+    }
+    nav {
+        height: 0;
+        overflow: hidden;
+        -webkit-transition: all 0.3s ease;
+    }
+    input[type="checkbox"]:checked + nav {
+        height: 205px;
+    }
+    nav > a {
+        padding: 0 1em;
+        display: block;
+        border-bottom: solid 1px #efebe8;
+    }
+    .header-left img {
+        height: 40px;
+    }
+    .header-left {
+        width: 100%;
+        text-align: center;
+    }
+    .header-right {
+        width: 100%;
+        text-align: center;
+    }
+    .hidden {
+        display: inline-block;
+        width: 35px;
+    }
+    .hidden img {
+        width: 35px;
+        height: auto;
+    }
+    .profile-pic {
+        width: 100%;
+    }
+}
