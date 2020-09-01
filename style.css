@@ -34,6 +34,10 @@ figcaption {
     font-family: "Didact Gothic", sans-serif;
     color: #383332;
     text-align: center;
+    font-style: italic;
+}
+.description {
+    font-style: normal;
 }
 html {
     scroll-behavior: smooth;
@@ -136,11 +140,11 @@ header {
     font-family: Alice, "Didact Gothic", serif;
     font-weight: 700;
     font-size: 1.2em;
-    color: #191515;
+    color: #307fe2;
 }
 .navbar-brand:focus p,
 .navbar-brand:hover p {
-    color: #307fe2;
+    color: #891567;
 }
 .header-right label {
     position: absolute;
@@ -313,9 +317,6 @@ a#scroll:focus i {
 .card h2 {
     margin-top: 0;
 }
-.personal h1 {
-    color: #307fe2;
-}
 .design figcaption,
 .design h2,
 .design h3,
@@ -388,39 +389,33 @@ figure {
 }
 footer {
     text-align: center;
-    background-color: #FAECE4;
+    background-color: #fef0ed;
     margin: 0;
     padding: 0;
     width: 100%;
     position: absolute;
     bottom: 0;
 }
-footer i {
-    color: #891567;
-    transition: all 0.2s ease-in-out;
-    -webkit-transform: all 0.2s ease-in-out;
-    -ms-transform: all 0.2s ease-in-out;
-    margin: 1em 0 1em 0;
-}
-footer a:focus i,
-footer i:hover {
-    color: #191515;
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-}
 .links-list {
     display: flex;
-    padding-top: 1.25rem;
+    padding-top: 1rem;
     justify-content: center;
 }
 .links-list li {
-    margin: 0 1.5rem 0 1.5rem;
+    margin: 1rem 2rem 1rem 2rem;
 }
 .links ul {
     list-style: none;
     list-style-type: none;
     padding-left: 0;
+}
+.links a {
+    color: #191515;
+    text-decoration: none;
+    font-weight: 700;
+}
+.links a:hover {
+    color: #891567;
 }
 @media (min-width: 768px) and (max-width: 979px) {
     .box {
