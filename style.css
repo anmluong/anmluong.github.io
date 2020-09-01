@@ -187,7 +187,7 @@ header {
 }
 .header-right a:focus img,
 .header-right a:hover img {
-    content: url(images/doodle-hover2.png);
+    content: url(images/doodle-hover.png);
     height: 15px;
     padding: 0;
     margin: 0;
